@@ -9,4 +9,18 @@ import App from './App.vue'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+
+// import VueRouter from 'vue-router'
+// const routes = [
+//     { path: '/home', component: Foo },
+//     { path: '/about', component: Bar }
+//   ]
+// const router = new VueRouter({
+//     routes // short for `routes: routes`
+//   })
+
+// const app = new Vue({
+//     router
+// }) .mount('#app')
+
 createApp(App).mount('#app')

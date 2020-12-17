@@ -25,7 +25,7 @@ export default {
   }, 
   mounted:function() {
     //let self = this;
-    axios.get('https://jsonplaceholder.typicode.com/posts')
+    axios.get('https://jsonplaceholder.typicode.com/posts/?')
       .then(response => (this.posts = response.data))
       .catch(function (error) {
         // handle error
